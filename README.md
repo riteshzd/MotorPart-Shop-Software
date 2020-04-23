@@ -8,12 +8,21 @@ to reduce inventory overheads after being inspired by the just-in-time
 (JIT) philosophy.
 
 ## Modules 
-MotorPartShopSoftware - Parent class which is executed to start the application
-LoginPage - Provides an username textfield and a password textfield. Shows an error notiff on wrong credentials.
-WelcomePage - The page where the allowalble functions are present for different userClasses
-AddDetails - User can add a new motorPart into the inventory through this function, needs to enter relevant details of the part.
-Billing - Handles the billing process when a part is sold from the shop.
-CheckStock - Gives a list of MotorParts present in the shop with quantity and ID of each.
-RequiredStock - Gives a list of MotorParts that need to be restocked after comparing current stock and average sales from previous week.
-SalesStatistics - Gives the total revenue of the day and the list of MotorParts sold in the current day.
-UpdateStock - Allows to restock an existing MotorPart into the inventory by taking in the ID and the quantity added.
+###### MotorPartShopSoftware
+Parent class which is executed to start the application
+###### LoginPage 
+Provides an username textfield and a password textfield. Shows an error notiff on wrong credentials.
+###### WelcomePage
+The page where the allowalble functions are present for different userClasses
+###### AddDetails 
+User can add a new motorPart into the inventory through this function, needs to enter relevant details of the part.
+###### Billing
+Handles the billing process when a part is sold from the shop.
+###### CheckStock
+Gives a list of MotorParts present in the shop with quantity and ID of each.
+###### RequiredStock
+Gives a list of MotorParts that need to be restocked after comparing current stock and average sales from previous week.
+###### SalesStatistics
+Gives the total revenue of the day and the list of MotorParts sold in the current day.
+###### UpdateStock
+Allows to restock an existing MotorPart into the inventory by taking in the ID and the quantity added.
